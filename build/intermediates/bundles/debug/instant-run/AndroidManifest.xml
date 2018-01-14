@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sifatsdroid.U_GRE.example"
+    android:versionCode="1"
+    android:versionName="1.0.9" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Useful Words for GRE"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sifatsdroid.U_GRE.HomePage"
+            android:label="Useful Words for GRE" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sifatsdroid.U_GRE.MyActivity" />
+        <activity
+            android:name="com.sifatsdroid.U_GRE.ListActivity"
+            android:noHistory="true" />
+        <activity android:name="com.sifatsdroid.U_GRE.MainActivity" />
+        <activity android:name="com.sifatsdroid.U_GRE.MainActivityList" />
+        <activity android:name="com.sifatsdroid.U_GRE.Help" />
+    </application>
+
+</manifest>

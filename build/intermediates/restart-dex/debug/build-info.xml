@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="303893800510463" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="300449019118490" >
+        <artifact
+            location="C:\Users\ASUS\Desktop\U_GRE\example\build\outputs\apk\example-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="302930042199004" >
+        <artifact
+            location="C:\Users\ASUS\Desktop\U_GRE\example\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="302958403305042" >
+        <artifact
+            location="C:\Users\ASUS\Desktop\U_GRE\example\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="303013242537606"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\ASUS\Desktop\U_GRE\example\build\intermediates\builds\debug\303013242537606\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="303893800510463" />
+
+</instant-run>
